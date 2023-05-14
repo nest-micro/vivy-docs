@@ -1,0 +1,23 @@
+{
+  "name": "vivy-docs",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "haiweilian <haiweilian@foxmail.com>",
+  "homepage": "https://github.com/nest-micro/vivy-docs",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.75"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}
